@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'BalooThambi';
+    src: url('../fontes/BalooThambi2-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background-image: linear-gradient(to top, #52B6FF, rgb(179, 218, 255));
+    background-repeat: no-repeat;
+}
+
+header#logo {
+    background-image: url("../imagens/sagalogoautoral.png");
+    height: 150px;
+    width: 160px;
+    margin: 0 auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-indent: -999999em;
+}
+main#tudo {
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+main.topo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 42px;
+}
+
+section#miolo {
+    display: flex;
+    padding-top: 20px;
+    gap: 15px;
+}
+
+section#container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.chamada {
+    padding-top: 15px;    
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-family: "BalooThambi", Times, serif;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: "BalooThambi", Times, serif;
+}
+
+#pfrase1 {
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+#pfrase2 {
+    font-size: 12px;
+}
+
+form#botaoAgendar {
+    text-align: center;
+}
+
+#botaoAgendar input{
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.062);
+    padding: 2px 17px;
+    font-family: "BalooThambi", Times, serif;
+    text-transform: uppercase;
+    color: #FC9905;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(206, 203, 203);
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 1em;
+    padding-right: 10px;
+}
+
+/*=================Página data=================*/
+
+h3 {
+    font-size: 25px;
+}
+
+main#tudoData {
+    display: flex;
+    flex-direction: column;
+}
+
+section#meioTopo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+section#data {
+    text-align: center;
+    padding-top: 90px;
+}
+
+input#data {
+    font-size: 39px;
+    border-radius: 10px;
+    border: black;
+    font-family: "BalooThambi", Times, serif;
+    padding: 5px 10px;
+}
+
+select#selechorario {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: black;
+}
+
+section#btnconfcan {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input#btnConfirmar {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border: black;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0F9AE9;
+    padding: 10px 40px;
+}
+
+input#btnCancelar {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/*=================Página login=================*/
+
+main#topo{
+    padding-top: 42px;
+}
+
+h3#agendaNome {
+    font-size: 40px;
+    padding-top: 8px;
+    text-align: center;
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+main#infor {
+    font-size: 7px;
+    padding-top: 1px;
+    text-align: center;
+}
+div#inputsLogin {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input#paciente{
+    border-radius: 10px;
+    border: black;
+    padding: 2px 15px;
+    font-weight: bold;
+    font-family: "BalooThambi", Times, serif;
+}
+
+p#paciente, p#nome, p#numero {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input#nome{
+    border-radius: 10px;
+    border: black;
+    padding: 2px 15px;
+    font-weight: bold;
+    font-family: "BalooThambi", Times, serif;
+}
+
+input#numero{
+    border-radius: 10px;
+    border: black;
+    padding: 2px 15px;
+    font-weight: bold;
+    font-family: "BalooThambi", Times, serif;
+}
+
+div#botaoAgenda{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+input#btnAgenda {
+    font-size: 20px;
+    font-family: "BalooThambi", Times, serif;
+    padding: 7.5px 15px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: #0F9AE9;
+    border-radius: 10px;
+    border: black;
+}
+
+input#btnCancelar2 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}

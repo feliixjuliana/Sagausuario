@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <main id="">
-        <section id="logo">
-            <h3 id="agendanome">Saga Dia</h3>
-        </section>
-        <section id="data">
-        <input id="data" value="" type="date">
-
-        <form action="" class="estrutura">
-            <select name="selec1" id="selechorario" class="escolha" onchange="">
-                <option value="">Escolha um horário</option>
-                <option value="11:00">11:00</option>
-                <option value="12:00">12:00</option>
-                <option value="14:00">14:00</option>
-                <option value="15:00">15:00</option>
-                <option value="16:00">16:00</option>
-                <option value="17:00">17:00</option>
-            </select>
-        </form>
-        </section> <br> 
-        <section id="btnconfcan">
-           <form action="login.html" id="Confirmar">
-            <input type="submit" value="Confirmar">                
+    <main id="tudoData">
+        <section id="meioTopo">
+            <section id="logo">
+                <header id="logo">Saga</header>
+                <!--<h3 id="agendanome">Saga Dia</h3>-->
+            </section>
+            <section id="data">
+            <input id="data" value="" type="date">
+    
+            <form action="" class="estrutura">
+                <select name="selec1" id="selechorario" class="escolha" onchange="">
+                    <option value="">Selecione um Horário</option>
+                    <option value="11:00">11:00</option>
+                    <option value="12:00">12:00</option>
+                    <option value="14:00">14:00</option>
+                    <option value="15:00">15:00</option>
+                    <option value="16:00">16:00</option>
+                    <option value="17:00">17:00</option>
+                </select>
             </form>
-            <form action="inicio.html" id="cancelar">
-            <input type="submit" value="Cancelar">                
-            </form>
-
+            </section> <br> 
         </section>
-
+            <section id="btnconfcan">
+               <form action="login.html" id="confirmar">
+                <input type="submit" value="Confirmar" id="btnConfirmar">                
+                </form>
+                <form action="inicio.html" id="cancelar">
+                <input type="submit" value="Cancelar" id="btnCancelar">                
+                </form>
+    
+            </section>
+    
+    </main>
 </body>
 </html>
