@@ -211,7 +211,7 @@ input#paciente{
     font-family: "BalooThambi", Times, serif;
 }
 
-p#paciente, p#nome, p#numero {
+p#paciente, p#nome, p#numero, p#consulhorario {
     font-size: 20px;
     font-weight: bold;
 }
