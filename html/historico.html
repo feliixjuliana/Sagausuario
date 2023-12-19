@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +8,46 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <h1>Histórico</h1>
+    <main class="topo">
+        <section id="Título">
+            <div>
+                <header id="logo">Saga</header>
+            </div>
+        </section>
+    </main>
+    <main class="tudoHistorico">
+        <h1>Histórico</h1>
     
-    <input type="text" placeholder="Busca" id="btnbusca">
+    <input type="text" placeholder="Buscar paciente..." id="btnbusca">
 
-    <main class="pacientes">
+    <main class="pacientesHistorico">
         <section class="paciente1">
             <h1>1</h1>
             <p>Armando Alves</p>
         </section>
 
-        <section class="paciente2">
+        <section class="paciente1">
             <h1>2</h1>
             <p>Aline Barros</p>
         </section>
 
-        <section class="paciente3">
+        <section class="paciente1">
             <h1>3</h1>
             <p>Juliana Gabriela</p>
         </section>
 
         <section class="paciente4">
             <h1>4</h1>
-            <form action="histpaciente.html">
+            <a href="telaMedico.html" id="sergio">Sérgio de Castro</a>
+            <!--<form action="histpaciente.html">
                 <input type="submit" value="Sérgio de Castro">
-            </form>
+            </form>-->
         </section>
     </main>
 
     <form action="telaMedico.html" id="cancelar2">
-        <input type="submit" value="Voltar" id="btnCancelar2">
-        </form>      
-
+        <input type="submit" value="Voltar" id="btnCancelar3">
+        </form>
+    </main>
 </body>
 </html>

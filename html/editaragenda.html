@@ -8,35 +8,32 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <main id="infor">
-        <main id="">
-            <section id="logo">
-                <h3 id="agendanome">Saga Dia</h3>
+    <main class="topo">
+        <section id="Título">
+            <div>
+                <header id="logo">Saga</header>
+            </div>
+        </section>
+    </main>
+        <main id="infor">
+            <section id="dataHora">
+                <section id="data2">
+                    <input id="data" value="" type="date">
+                    </section>
+                <form action="" class="estrutura">
+                    <select name="selec1" id="selechorario2" class="escolha" onchange="">
+                        <option value="08:30">08:30</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="17:00">17:00</option>
+                    </select>
+                </form>
             </section>
-            <section id="data">
-            <input id="data" value="" type="date">
     
-            <form action="" class="estrutura">
-                <select name="selec1" id="selechorario" class="escolha" onchange="">
-                    <option value="08:30">08:30</option>
-                    <option value="11:00">11:00</option>
-                    <option value="12:00">12:00</option>
-                    <option value="14:00">14:00</option>
-                    <option value="15:00">15:00</option>
-                    <option value="16:00">16:00</option>
-                    <option value="17:00">17:00</option>
-                </select>
-            </form>
             </section> <br> 
-            <section id="btnconfcan">
-               <form action="login.html" id="Confirmar">
-                <input type="submit" value="Confirmar">                
-                </form>
-                <form action="inicio.html" id="cancelar">
-                <input type="submit" value="Cancelar">                
-                </form>
-    
-            </section>
         <section id="inforpaciente">
         <form action="" method="post">
             <section class="paciente">
@@ -56,7 +53,10 @@
 
         </form>
             <form action="agendaatualizada.html" class="confirmandoed">
-            <input type="submit" onclick="" value="Confirmar edição" id="btnEd" name="btnEd">            
+            <input type="submit" onclick="" value="Confirmar edição" id="btnEd" name="btnEd"> 
+            <form action="inicio.html" id="cancelar">
+                <input type="submit" value="Cancelar" id="btnCancelar4">                
+                </form>          
         </form>
 
         </section>

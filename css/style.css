@@ -76,6 +76,7 @@ p {
     color: rgb(255, 255, 255);
     font-size: 10px;
     font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
 }
 
 #pfrase1 {
@@ -131,15 +132,15 @@ section#meioTopo{
 
 section#data {
     text-align: center;
-    padding-top: 90px;
+    padding-top: 70px;
+    gap: 10px;
 }
 
-input#data {
-    font-size: 39px;
+section#data input#data {
+    font-size: 48px;
     border-radius: 10px;
     border: black;
     font-family: "BalooThambi", Times, serif;
-    padding: 5px 10px;
 }
 
 select#selechorario {
@@ -148,6 +149,7 @@ select#selechorario {
     border-radius: 10px;
     padding: 5px 10px;
     border: black;
+    font-weight: bold;
 }
 
 section#btnconfcan {
@@ -181,12 +183,12 @@ input#btnCancelar {
 /*=================Página login=================*/
 
 main#topo{
-    padding-top: 42px;
+    padding-top: 20px;
 }
 
-h3#agendaNome {
+#subtitle {
     font-size: 40px;
-    padding-top: 8px;
+    padding-top: 2px;
     text-align: center;
     font-family: "BalooThambi", Times, serif;
     font-weight: bold;
@@ -201,7 +203,7 @@ main#infor {
 div#inputsLogin {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2px;
 }
 input#paciente{
     border-radius: 10px;
@@ -233,7 +235,7 @@ input#numero{
 }
 
 div#botaoAgenda{
-    padding-top: 30px;
+    padding-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,4 +261,333 @@ input#btnCancelar2 {
     color: #FFFFFF;
     font-weight: bold;
     padding: 5px 20px;
+}
+
+input#btnCancelar4 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/*=================Página Agenda=================*/
+
+main.todosPacientes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dadosModel {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #a9ddfc;
+    border-radius: 10px;
+}
+
+.pacientes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 300px;
+    height: 90px;
+    padding-left: 12px;
+}
+
+section.containerinfor1 p{
+    font-size: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #575656;
+}
+
+h3.horario {
+    color: #FC9905;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    font-weight: bold;
+    font-family: "BalooThambi", Times, serif;
+}
+
+.inputsdeled {
+    display: flex;
+    flex-direction: row; 
+    padding-bottom: 60px;
+    gap: 3px;
+}
+
+input#Btndeletar1{
+    font-size: 12px;
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 8px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+}
+
+input.editar {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 12px;
+    border-radius: 10px;
+    border: black;
+    background-color: #0F9AE9;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.btndiaseguinte{
+    font-size: 20px;
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: black;
+    background-color: #0F9AE9;
+    color: #FFFFFF;
+}
+
+input#btnCancelar2 {
+    background-color: #ff0000;
+}
+
+/*=================Página Deleta Agenda=================*/
+
+section#btnconfcan2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+input#btnConfirmar2 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: black;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #0F9AE9;
+    padding: 5px 20px;
+}
+
+input#btnCancelar2 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2.5px 10px;
+}
+
+.confirmandoed {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    gap: 5px;
+}
+
+#btnEd {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 25px;
+    border-radius: 10px;
+    border: black;
+    background-color: #0F9AE9;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 2.5px 10px;
+}
+
+section#data2 {
+    padding-top: 40px;
+}
+
+section#data2 input#data {
+    font-size: 40px;
+    border-radius: 10px;
+    border: black;
+    font-family: "BalooThambi", Times, serif;
+}
+
+select#selechorario2 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 105px;
+    border: black;
+    font-weight: bold;
+}
+
+section#dataHora {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+section#inforpaciente {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/*=================Página Deleta Agenda=================*/
+main.tudoHistorico h1 {
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+    color: #FC9905;
+    text-shadow: 2px 2px 1px #FFFFFF;
+    font-size: 55px;
+}
+
+#btnbusca {
+    font-size: 22px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: black;
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+}
+
+.tudoHistorico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a#sergio {
+    text-decoration: none;
+    font-family: "BalooThambi", Times, serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.pacientesHistorico {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+main.tudoHistorico p {
+    font-size: 25px;
+}
+
+.paciente1 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #acdafd;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+}
+
+.paciente4 h1{
+    font-size: 55px;
+}
+
+.paciente4 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: #acdafd;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 50px;
+}
+
+form#cancelar2 {
+    padding-top: 10px;
+}
+
+input#btnCancelar3 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+/*=================Página histpaciente=================*/
+
+.infoadcConsulta{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #a3d4f7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section.inforadc p{
+    font-size: 20px;
+}
+
+section.Consultas p{
+    font-size: 20px;
+}
+
+input#btnCancelar2 {
+    font-family: "BalooThambi", Times, serif;
+    font-size: 30px;
+    border-radius: 10px;
+    border: black;
+    background-color: #FE0505;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 20px;
+}
+
+main.tudoHistorico h3{
+    font-family: "BalooThambi", Times, serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+/*=================Página telaMedico=================*/
+
+input#btnagenda {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 20px 10px;
+    border: black;
+    font-family: "BalooThambi", Times, serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0F9AE9;
+
+}
+
+input#btnhistorico {
+    font-size: 27px;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border: black;
+    font-family: "BalooThambi", Times, serif;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0F9AE9;
+}
+
+.btnsescolha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    gap: 15px;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,66 +8,77 @@
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <main class="topo">
 
-    <main class="paciente2">
-        <h3>13:30</h3>
-        <section class="containerinfor1">
-          <p>Sérgio de Castro</p>
-          <p>09/11/2023</p> 
-          <p>81 9 8688-4544</p>      
+        <section id="Título">
+            <!--<h2>Saga Usuário</h2> !-->
+            <div>
+                <header id="logo">Saga</header>
+            </div>
         </section>
 
-        <section class="inputs1deled">
-            <form action="deletagenda.html">
-                <input type="submit" value="Deletar" id="Btndeletar1">
-            </form>
-            <form action="editaragenda.html">
-                <input type="submit" value="Editar" class="editar">
-            </form>
-        </section>
- 
+
     </main>
-
-    <main class="paciente3">
-        <h3>14:00</h3>
-        <section class="containerinfor2">
-          <p>Armando Alves</p>
-          <p>09/11/2023</p> 
-          <p>81 9 8639-4524</p>      
-        </section>
-
-        <section class="inputs1deled">
-            <form action="deletagenda.html">
-                <input type="submit" value="Deletar" id="Btndeletar1">
-            </form>
-            <form action="editaragenda.html">
-                <input type="submit" value="Editar" class="editar">
-            </form>
-        </section>
- 
-    </main>
-
-    <main class="paciente1">
-        <h3>17:00</h3>
-        <section class="containerinfor">
-          <p>Juliana Gabriela</p>
-          <p>09/11/2023</p> 
-          <p>81 9 8888-4444</p>      
-        </section>
-
+    <main class="todosPacientes">
+        <main class="dadosModel">
         
-        <section class="inputsdeled">
-            <form action="deletagenda.html">
-                <input type="submit" value="Deletar" id="Btndeletar1">
-            </form>
-            <form action="editaragenda.html">
-                <input type="submit" value="Editar" class="editar">
-            </form>
-        </section>
- 
-    </main>
-
-    <section class="btnvoltar">
+            <main class="pacientes">
+                <h3 class="horario">13:30</h3>
+                <section class="containerinfor1">
+                  <p>Sérgio de Castro</p>
+                  <p>09/11/2023</p> 
+                  <p>81 9 8688-4544</p>      
+                </section>
+        
+                <section class="inputsdeled">
+                    <form action="editaragenda.html">
+                        <input type="submit" value="Editar" class="editar">
+                    </form>
+                    <form action="deletagenda.html">
+                        <input type="submit" value="Deletar" id="Btndeletar1">
+                    </form>
+                </section>
+         
+            </main>
+        
+            <main class="pacientes">
+                <h3 class="horario">14:00</h3>
+                <section class="containerinfor1">
+                  <p>Armando Alves</p>
+                  <p>09/11/2023</p> 
+                  <p>81 9 8639-4524</p>      
+                </section>
+                <section class="inputsdeled">
+                    <form action="editaragenda.html">
+                        <input type="submit" value="Editar" class="editar">
+                    </form>
+                    <form action="deletagenda.html">
+                        <input type="submit" value="Deletar" id="Btndeletar1">
+                    </form>
+                </section>
+        </main>
+        <main class="pacientes">
+            <h3 class="horario">17:00</h3>
+            <section class="containerinfor1">
+              <p>Juliana Gabriela</p>
+              <p>09/11/2023</p> 
+              <p>81 9 8888-4444</p>      
+            </section>
+    
+            <section class="inputsdeled">
+                <form action="editaragenda.html">
+                    <input type="submit" value="Editar" class="editar">
+                </form>
+                <form action="deletagenda.html">
+                    <input type="submit" value="Deletar" id="Btndeletar1">
+                </form>
+            </section>
+     
+        </main>
+     
+        </main>
+    
+        <section class="btnvoltar">
         <form action="dia2.html" >
             <input type="submit" class="btndiaseguinte" value="Dia seguinte">
         </form>
@@ -75,5 +86,7 @@
             <input type="submit" value="Voltar" id="btnCancelar2">
             </form>              
         </section>
+    </main>
+
 </body>
 </html>
